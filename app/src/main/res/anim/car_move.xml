@@ -4,6 +4,8 @@
     <translate
         android:duration="5000"
         android:fromXDelta="0"
+        android:repeatCount="infinite"
         android:toXDelta="700" />
+
 
 </set>

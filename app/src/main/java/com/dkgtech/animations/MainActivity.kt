@@ -21,8 +21,11 @@ class MainActivity : AppCompatActivity() {
 //        val blinkAnim = AnimationUtils.loadAnimation(this@MainActivity, R.anim.blink)
 //        binding.txtAnim.animation = blinkAnim
 
-        val roundAnim = AnimationUtils.loadAnimation(this@MainActivity, R.anim.round)
-        binding.txtAnim.animation = roundAnim
+//        val roundAnim = AnimationUtils.loadAnimation(this@MainActivity, R.anim.round)
+//        binding.txtAnim.animation = roundAnim
+
+        val scaleAnim = AnimationUtils.loadAnimation(this@MainActivity, R.anim.scale)
+        binding.txtAnim.animation = scaleAnim
 
     }
 }
